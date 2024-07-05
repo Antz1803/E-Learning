@@ -1,2 +1,1 @@
-
- https://Antipaso.com/E-learning/E-Learning.html
+http://antipaso.com/E-learning/E-Learning.html
