@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #a8dadc;
+  padding: 5px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px; 
+  line-height: 28px;
+  border-radius: 4px;
+}
+.logo {
+   position:relative;
+   width:7%;
+   left:60px;
+}
+.header a:hover {
+  background-color: #ffb703;
+  color: black;
+}
+.header a.active{
+	background-color:#ffb703;	
+}
+.navigation{
+  float: right;
+}
+
+.introPic{
+	position:relative;
+	width:45%;
+}
+.About1{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.About2{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+.listAp1{
+	position:relative;
+	float:left;
+	left:63px;
+	padding:50px;
+	line-height:35px;
+	column-count:4;
+	column-gap: 50px;
+	column-rule-style: solid;
+    column-rule-width: 1px;
+}
+.listAp2{
+	position:relative;
+	float:left;
+	left:63px;
+	padding:50px;
+	line-height:35px;
+	column-count:4;
+	column-gap: 50px;
+	column-rule-style: solid;
+    column-rule-width: 1px;
+}
+li::marker{
+	color:blue;
+}
+
+.fblogs{
+	width:15%;
+}
+.gmaillogs{
+	width:15%;
+}
+.telelogs{
+	width:15%;
+}
+.contaka{
+	position:relative;
+	float:left;
+	top:56px;
+	text-align:center;
+	column-count:3;
+	background-color:#1d3557;
+	width:100%;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.ahay{
+	position:relative;
+	max-width:620px;
+	float:right;
+	right:107px;
+	top: 10px;
+
+}
+
+.ArrowUp{
+	position:relative;
+	float:right;
+	width:9%;
+	top:-253px;
+	margin-bottom:-1123px;
+}
